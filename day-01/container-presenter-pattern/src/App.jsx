@@ -1,7 +1,6 @@
-// import UserProfile from "./messy-way/components/UserProfile";
+import UserProfileContainer from "./with-pattern/container/profile/UserProfileContainer";
+import './App.css';
 
-import "./App.css";
-import UserProfileContainer from "./messy-way/components/UserProfile";
 function App() {
   return (
     <div>
